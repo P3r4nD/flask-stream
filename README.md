@@ -1,8 +1,8 @@
 # Flask Stream
 
-Extensión de Flask para descargas remotas y streaming de progreso vía SSE.
+Flask extension for remote downloads and progress streaming via SSE.
 
-## Instalación
+## Install
 
 ```bash
 pip install flask-stream
