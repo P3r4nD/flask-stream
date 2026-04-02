@@ -69,7 +69,7 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/flask-stream.git
+git clone https://github.com/P3r4nD/flask-stream.git
 cd flask-stream
 
 # Install with dev dependencies
@@ -100,4 +100,3 @@ def index():
     {{ stream_button() }}
     """
 ```
-

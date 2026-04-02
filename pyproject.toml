@@ -31,3 +31,12 @@ dev = [
     "black",
     "isort"
 ]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+flask_stream = [
+    "templates/**/*",
+    "static/**/*"
+]
