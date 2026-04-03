@@ -66,7 +66,7 @@ class SSHDownloadProvider:
 
             base = server["remote_base"]
 
-            # Creamos un client temporal solo para listar archivos
+            # Create a temporary client just to list files
             client_list = self.connect(server)
             sftp_list = client_list.open_sftp()
             files = self.list_recursive(sftp_list, base)
